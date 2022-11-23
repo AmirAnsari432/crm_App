@@ -10,16 +10,16 @@ export default function NotFound() {
 
   return (
     <div>
-      <div className="d-flex justify-content-center text-center align-items-center">
+      <div className=" vh-100 d-flex justify-content-center text-center align-items-center">
         <div>
-          <h1>Not Found </h1>
+          <h1>Not Found !</h1>
           <img src={Not} alt="not found " />
-          <p> hmmm... The page are looking for does not exist</p>
+          <h5> hmmm... The page you are looking for does not exist</h5>
 
-          <button onClick={goBack}>Go back </button>
+          <button className="btn btn-info my-3 " onClick={goBack}>Go back </button>
         </div>
       </div>
-      <div className="text-center "></div>
+    
     </div>
   );
 }
