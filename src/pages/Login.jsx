@@ -1,7 +1,20 @@
 import { useState } from "react";
 import { DropdownButton, Dropdown } from "react-bootstrap";
-import { userSignIn , userSignup } from "../api/auth";
 import { useNavigate } from "react-router-dom";
+import { userSignIn, userSignup } from "../api/auth";
+// signup : userid, username, email, password
+// login: userid, password
+/*
+POST API 
+1. Grab the data 
+2. Store the data 
+3. Call the api */
+
+/*
+POST API SIGNUP
+1. Grab the data : userid, username, email, usertype, password
+2. Store the data : username, email
+3. Call the api */
 function Login() {
   const [showSignup, setShowSignup] = useState(false);
   const [message, setMessage] = useState("");

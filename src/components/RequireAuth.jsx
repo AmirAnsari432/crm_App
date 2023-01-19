@@ -21,8 +21,10 @@ function RequireAuth({ allowedRoles }) {
 
 export default RequireAuth;
 
+/* eslint-disable */ 
+// eslint-disable-next-line
 {
   /* <Navigate to="/unauthorized" state={{ from: location }} replace />
-admin -> engineer -> unauth
-from : admin -> engineer : replaced unauth */
+  admin -> engineer -> unauth
+  from : admin -> engineer : replaced unauth */
 }
